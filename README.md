@@ -18,3 +18,4 @@ The model shows signs of overfitting the train set, but valid and, most importan
 
 - Easiest would be to make a copy and run it directly on kaggle.com - https://www.kaggle.com/gobsan/enter-ideas-george-torch
 - This way it will have all the needed dependencies and dataset preinstalled
+- Just turn on GPU acceleration and run the whole thing. It should take ~ 15-20 min to run the whole thing
