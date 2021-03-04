@@ -12,4 +12,4 @@ Prep work included using Pandas for path and label collection of all data.
 3. The model was 1st trained with all but the last layer frozen for a couple of epochs, then all params were unfrozen and the whole model trained again.
 4. tta was used on test dataset.
 
-The model shows signs of overfitting the train set, but valid and, most importantly, test set error rates are good indicators of the model working properly.
+The model shows signs of overfitting the train set, but valid and, most importantly, test set error rates are good indicators of the model is working properly.
