@@ -13,3 +13,8 @@ Prep work included using Pandas for path and label collection of all data.
 4. tta was used on test dataset.
 
 The model shows signs of overfitting the train set, but valid and, most importantly, test set error rates are good indicators of the model is working properly.
+
+## How to run:
+
+- Easiest would be to make a copy and run it directly on kaggle.com - https://www.kaggle.com/gobsan/enter-ideas-george-torch
+- This way it will have all the needed dependencies and dataset preinstalled
