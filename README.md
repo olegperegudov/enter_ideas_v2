@@ -21,4 +21,7 @@ The model shows signs of overfitting the train set, but valid and, most importan
 This way it will have all the needed dependencies and dataset preinstalled.
 Just turn on GPU acceleration and run the whole thing. It will take ~ 15-20 min if you run it as is.
 
-2. You can try and run it locally with Jupyter NB if you have GPU available, but you will also need to set up paths to your file dirs and the dataset itself (can be DL from kaggle). I only had CPU and there were some problems running it this way (and couldn't check how it runs with GPU locally). Even after installing all the dependencies from requirements file.
+2. You can also run inference NB only. With no training required, you can see it at: https://www.kaggle.com/gobsan/enter-ideas-george-torch-inference
+Just copy & edit it to open. Then "run all". It shouldn't take more than a few seconds for result to pop up. Can run CPU or GPU.
+
+3. You can try and run it locally with Jupyter NB if you have GPU available, but you will also need to set up paths to your files and the dataset itself (can be DL from kaggle). I only had CPU and there were some problems running it this way (and couldn't check how it runs with GPU locally). Even after installing all the dependencies from requirements file.
