@@ -6,12 +6,12 @@
 
 This is what was done:
 
-Prep work included using Pandas for path and label collection of all data.
-1. The data was split into train, valid and test datasets.
-2. Some minor augmentations added to the data.
-3. The model was 1st trained with all but the last layer frozen for a couple of epochs, then all params were unfrozen and the whole model trained again.
-4. TTA was used on test dataset.
-5. I could get ~6.5% error rate with 3 frozen and ~10 unfozen epochs.
+1. Prep work included using Pandas for path and label collection of all data.
+2. The data was split into train, valid and test datasets.
+3. Some minor augmentations added to the data.
+4. The model was 1st trained with all but the last layer frozen for a couple of epochs, then all params were unfrozen and the whole model trained again.
+5. TTA was used on test dataset.
+6. I could get ~6.5% error rate with 3 frozen and ~10 unfozen epochs.
 
 The model shows signs of overfitting the train set, but valid and, most importantly, test set error rates are good indicators of the model working properly.
 
