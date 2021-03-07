@@ -13,7 +13,7 @@ This is what was done:
 5. TTA was used on test dataset.
 6. I could get ~6.5% error rate with 3 frozen and ~10 unfozen epochs.
 
-The model shows signs of overfitting the train set, but valid and, most importantly, test set error rates are good indicators of the model working properly.
+The model shows signs of overfitting the train set, but valid and test set error rates are good indicators of the model working properly.
 
 ## How to run:
 
