@@ -2,7 +2,7 @@ import cv2
 import albumentations as A
 import os
 
-path = r'C:\Users\Oleg\Google Drive\_DS\Python\__PRACTICE\enter_ideas\data'
+path = r'' 
 read_path = os.path.join(path, 'test')
 write_path = os.path.join(path, 'test_resized')
 

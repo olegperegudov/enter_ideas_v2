@@ -1,0 +1,3 @@
+# misc 
+# presize data to 256px smallest side to speed up training
+resize_data_to_256_smallest.py
